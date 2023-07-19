@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="node.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <div class="board">
+            <div class="day">
+                <label for="day">DAY</label><br>
+                <input type="number" id="day" placeholder="DD" min="1" max="31">
+            </div> 
+            <div class="month">                 
+                <label for="Month">MONTH</label><br>
+                <select name="month" id="month">
+                    <option value="01">MM</option>
+                    <option value="01">Jan</option>             
+                    <option value="02">Feb</option>
+                    <option value="03">Mar</option>
+                    <option value="04">Apr</option>
+                    <option value="05">May</option>
+                    <option value="06">Jun</option>
+                    <option value="07">Jun</option>
+                    <option value="08">Aug</option>
+                    <option value="09">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dec</option>
+                 </select>
+                </div>
+            <div class="year">                 
+                <label for="year">YEAR</label><br>
+                <input type="number" id="year" placeholder="YYYY" min="1901" max="2023">
+            </div>
+            </div>
+
+            <div class="line-with-button">
+                <div class="line"></div>
+                <button class="circle-button" onclick="calculateAge()"><i class="arrow down"></i></button>
+              </div>
+            
+           
+            <div class="result">
+                <p><i><span>-- --</span> YEARS</i></p>
+                <p><i><span>-- --</span> MONTHS</i></p>
+                <p><i><span>-- --</span> DAYS</i></p>
+            </div>
+        </div>
+    </div>    
+    
+    </div>
+    </body>
+</html>
