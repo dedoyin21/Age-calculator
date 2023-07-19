@@ -94,7 +94,7 @@ input[type="number"]{
     font-weight: 900;
     margin-left: 35px;
 }
-span{
+#ageYears #ageMonths #ageDays{
     color: rgb(107, 116, 126);
 }
 p{
