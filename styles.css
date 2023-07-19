@@ -4,7 +4,7 @@ body{
     margin: 0px;
 }
 .container{
-    height: 350px;
+    height: 420px;
     width: 500px;
     background-color: lightgrey;
     margin: auto;
@@ -99,6 +99,16 @@ input[type="number"]{
 }
 p{
     color: black;
+}
+#reset-button{
+    background-color:  rgb(107, 116, 126);
+    justify-content: center;
+    margin: -2rem 0px 0px 150px;
+    padding: 0.5rem;
+    color: lightgray;
+    border-radius: 10px;
+    border-style: none;
+    width: 8rem;
 }
 
 

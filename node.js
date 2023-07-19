@@ -31,3 +31,12 @@ function calculateAge() {
 document.getElementById("myButton").addEventListener("click", function() {
   console.log("Button clicked!");
 });
+
+function resetFields() {
+  document.getElementById("day").value = "";
+  document.getElementById("month").selectedIndex = 0;
+  document.getElementById("year").value = "";
+  document.getElementById("ageYears").textContent = "--";
+  document.getElementById("ageMonths").textContent = "--";
+  document.getElementById("ageDays").textContent = "--";
+}
